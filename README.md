@@ -31,3 +31,5 @@ DISCORD_TOKEN=<#your_token#>
 ```
 
 - run bot with `python3 covenants.py`
+
+All thanks to [this guide](https://realpython.com/how-to-make-a-discord-bot-python/)
