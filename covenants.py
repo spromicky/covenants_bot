@@ -16,11 +16,11 @@ quotes = Quotes()
 bot = commands.Bot(command_prefix='!')
 
 
-@bot.command(name='craid', help='Bring all intelligence of ML and choose the best covenant in m+ especially for you!')
+@bot.command(name='craid', help='Bring all intelligence of ML and choose the best covenant in raid')
 async def raid(ctx):
     await ctx.send(choose_quote(ctx))
 
-@bot.command(name='ckeys', help='Bring all intelligence of ML and choose the best covenant in m+ specialy for you!')
+@bot.command(name='ckeys', help='Bring all intelligence of ML and choose the best covenant in m+')
 async def keys(ctx):
     await ctx.send(choose_quote(ctx))
 

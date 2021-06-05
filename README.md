@@ -21,10 +21,13 @@ After randomize qoutes saved in cache, unique for user until end of the day. Eve
 
 ### How to use:
 
-Fill files in `./quotes` folder. You should register a bot for Discord, then create file `./.env` with this content: 
+- install dependencies `pip3 install --user -U python-dotenv` `pip3 install -U --user discord.py`
+- fill files in `./quotes` folder
+- create a bot on [Discord site](https://discord.com/developers/applications/)
+- create file `.env` with content 
 
 ```
 DISCORD_TOKEN=<#your_token#>
 ```
 
-Start bot with `python covenants.py`
+- run bot with `python3 covenants.py`
